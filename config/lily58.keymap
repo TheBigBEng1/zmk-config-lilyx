@@ -91,7 +91,7 @@
    &trans     &kp CAPS   &kp LARW   &kp DARW   &kp RARW   &kp PG_DN			       &kp LBKT   &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp PRCNT  &kp EQUAL
 //├──────────┼──────────┼─ ────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
 //│   LSHFT  │   LCAPS  │LSCRLLLOCK│    APP   │ LCKNMLCK │  CNTXMN  │     <    │   │    >     │     ]    │     0    │     ,    │     .    │   BCSP   │   ENTR   │
-   &trans     &kp LCAPS  &kp LSLCK  &kp K_APP  &kp LNLCK  &kp K_CMENU &kp LT 	    &kp GT     &kp RBKT   &kp KP_N0  &kp COMMA  &kp KP_DOT &kp BCSP   &kp RET
+   &trans     &kp LCAPS  &kp LSLCK  &kp K_APP  &kp LNLCK  &kp K_CMENU &kp LESS_THAN &kp GREATER_THAN &kp RBKT   &kp KP_N0  &kp COMMA  &kp KP_DOT &kp BCSP &kp ENTER
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
 //  				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    RIG   │   BCKSP  │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
