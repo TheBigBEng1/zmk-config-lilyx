@@ -52,7 +52,7 @@
    &kp LSHFT  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
 //  				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    RIG   │   BCKSP  │    DEL   │
-				    &kp LALT   &kp LGUI   &kp LEF    &kp SPACE	    &kp	ENTER  &kp RIG    &kp BSPC   &kp DEL
+				    &kp LALT   &kp LGUI   &mo LEF    &kp SPACE	    &kp	ENTER  &mo RIG    &kp BSPC   &kp DEL
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
         };
