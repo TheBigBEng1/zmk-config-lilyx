@@ -81,8 +81,8 @@
         left_layer {
             bindings = <
 //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮			      ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
-//│    ESC   │   INSRT  │SCROLLLOCK│  PAU/BRK │  NUMLCK  │PRINT_SCRN│			      │     (    │     7    │     8    │     9    │     *    │     +    │
-   &trans     &kp INS    &kp SLCK   &kp PAUSE_BREAK &kp KP_NUMLOCK &kp PSCRN   		       &kp LPAR   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY &kp KP_PLUS
+//│    ESC   │   INSRT  │SCROLLLOCK│          │  NUMLCK  │PRINT_SCRN│			      │     (    │     7    │     8    │     9    │     *    │     +    │
+   &trans     &kp INS    &kp SLCK   &trans &kp KP_NUMLOCK &kp PSCRN   		      	       &kp LPAR   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY &kp KP_PLUS
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
 //│    TAB   │    DEL   │   POS1   │    UP    │    END   │  PAGE_UP │			      │     (    │     4    │     5    │     6    │     /    │     -    │
    &trans     &kp DEL    &kp HOME   &kp UARW   &kp END    &kp PG_UP		               &kp RPAR   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_DIVIDE &kp KP_SUBTRACT
