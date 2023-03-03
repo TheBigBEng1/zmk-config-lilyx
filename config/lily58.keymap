@@ -51,8 +51,8 @@
 //│   LSHFT  │     Y    │     X    │     C    │     V    │     B    │    { [   │   │   ] }    │     N    │     M    │    , <   │    . >   │    - _   │   RSHFT  │
    &kp LSHFT  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    RIG   │   BCKSP  │    DEL   │
-				    &kp LALT   &kp LGUI   &mo LEF    &kp SPACE	    &kp	ENTER  &mo RIG    &kp BSPC   &kp DEL
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │    LEF   │   BCKSP  │    DEL   │
+				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &mo LEF    &kp BSPC   &kp DEL
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
         };
@@ -72,8 +72,8 @@
 //│   LSHFT  │     Y    │     X    │     C    │     V    │     B    │    { [   │   │   ] }    │     N    │     M    │    , <   │    . >   │    - _   │   RSHFT  │
    &kp LSHFT  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-// 				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    RIG   │   BCKSP  │    DEL   │
-				    &kp LALT   &kp LGUI   &mo LEF    &kp SPACE	    &kp	ENTER  &mo RIG    &kp BSPC   &kp DEL
+// 				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    LEF   │   BCKSP  │    DEL   │
+				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &mo LEF    &kp BSPC   &kp DEL
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
         };
@@ -93,7 +93,7 @@
 //│   LSHFT  │   LCAPS  │LSCRLLLOCK│    APP   │ LCKNMLCK │  CNTXMN  │     <    │   │    >     │     ]    │     0    │     ,    │     .    │   BCSP   │   ENTR   │
    &trans     &kp LCAPS  &kp LSLCK  &kp K_APP  &kp LNLCK  &kp K_CMENU &kp LT        &kp GT     &kp RBKT   &kp KP_N0  &kp COMMA  &kp KP_DOT &kp BSPC   &kp ENTER
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    RIG   │   BCKSP  │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │    LEF   │   BCKSP  │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
@@ -114,7 +114,7 @@
 //│   LSHFT  │     "    │     ]    │     }    │     )    │     >    │     [    │   │     ]    │     \    │     _    │     +    │     │    │     ?    │   RSHFT  │
    &trans     &kp DQT    &kp RBKT   &kp RBRC   &kp RPAR   &kp GT     &kp LBKT	    &kp RBKT   &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    RIG   │   BCKSP  │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │    LEF   │   BCKSP  │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
@@ -135,7 +135,7 @@
 //│   LSHFT  │          │          │          │          │          │     (    │   │     )    │  SHUFFLE │ PREVSONG │  REWIND  │PAUSEMUSIC│FASTFOWARD│ NEXTSONG │
    &trans     &trans     &trans     &trans     &trans     &trans     &kp LPAR 	    &kp RPAR   &kp C_SHUFFLE &kp C_PREV &kp C_RW &kp C_PP  &kp C_FF   &kp C_NEXT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   LEF    │   SPACE  │   │   ENTR   │    RIG   │   BCKSP  │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │    LEF   │   BCKSP  │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
 
