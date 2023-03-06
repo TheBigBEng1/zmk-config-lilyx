@@ -52,7 +52,7 @@
    &kp LSHFT  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
 //  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
-				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &mo BSPC    &kp LEF   &kp DEL
+				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &kp BSPC    &mo LEF   &kp DEL
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
         };
@@ -73,7 +73,7 @@
    &kp LSHFT  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
 //  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
-				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &mo BSPC    &kp LEF   &kp DEL
+				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &kp BSPC    &mo LEF   &kp DEL
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
         };
