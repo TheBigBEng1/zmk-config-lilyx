@@ -45,13 +45,13 @@
 //│    TAB   │     Q    │     W    │     E    │     R    │     T    │			      │     Z    │     U    │     I    │     O    │     P    │    \ |   │
    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      		               &kp Z      &kp U      &kp I      &kp O      &kp P      &kp BSLH
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LCTRL  │     A    │     S    │     D    │     F    │     G    │			      │     H    │     J    │     K    │     L    │    ; :   │    ' "   │
-   &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G     			       &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp DQT
+//│   LSHFT  │     A    │     S    │     D    │     F    │     G    │			      │     H    │     J    │     K    │     L    │    ; :   │    ' "   │
+   &kp LSHFT  &kp A      &kp S      &kp D      &kp F      &kp G     			       &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp DQT
 //├──────────┼──────────┼─ ────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LSHFT  │     Y    │     X    │     C    │     V    │     B    │    { [   │   │   ] }    │     N    │     M    │    , <   │    . >   │    - _   │   RSHFT  │
-   &kp LSHFT  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
+//│   LCTRL  │     Y    │     X    │     C    │     V    │     B    │    { [   │   │   ] }    │     N    │     M    │    , <   │    . >   │    - _   │   RSHFT  │
+   &kp LCTRL  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCSP   │    LEF   │    DEL   │
 				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &kp BSPC    &mo LEF   &kp DEL
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
@@ -66,13 +66,13 @@
 //│    TAB   │     Q    │     W    │     E    │     R    │     T    │			      │     Z    │     U    │     I    │     O    │     P    │    \ |   │
    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      		               &kp Z      &kp U      &kp I      &kp O      &kp P      &kp BSLH
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LCTRL  │     A    │     S    │     D    │     F    │     G    │			      │     H    │     J    │     K    │     L    │    ; :   │    ' "   │
-   &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G     			       &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp DQT
+//│   LSHFT  │     A    │     S    │     D    │     F    │     G    │			      │     H    │     J    │     K    │     L    │    ; :   │    ' "   │
+   &kp LSHFT  &kp A      &kp S      &kp D      &kp F      &kp G     			       &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
 //├──────────┼──────────┼─ ────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LSHFT  │     Y    │     X    │     C    │     V    │     B    │    { [   │   │   ] }    │     N    │     M    │    , <   │    . >   │    - _   │   RSHFT  │
-   &kp LSHFT  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
+//│   LCTRL  │     Y    │     X    │     C    │     V    │     B    │     {    │   │    }     │     N    │     M    │    , <   │    . >   │    - _   │   RSHFT  │
+   &kp LCTRL  &kp Y      &kp X      &kp C      &kp V      &kp B      &kp LBRC	    &kp RBRC   &kp N      &kp M      &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKP   │    LEF   │    DEL   │
 				    &kp LALT   &kp LGUI   &mo RIG    &kp SPACE	    &kp	ENTER  &kp BSPC    &mo LEF   &kp DEL
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
@@ -82,18 +82,18 @@
             bindings = <
 //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮			      ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
 //│    ESC   │   INSRT  │SCROLLLOCK│          │  NUMLCK  │PRINT_SCRN│			      │     (    │     7    │     8    │     9    │     *    │     +    │
-   &trans     &kp INS    &kp SLCK   &trans &kp KP_NUMLOCK &kp PSCRN   		      	       &kp LPAR   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY &kp KP_PLUS
+   &trans     &kp INS    &kp SLCK   &trans     &kp KP_NUMLOCK &kp PSCRN   		       &kp LPAR   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY &kp KP_PLUS
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│    TAB   │    DEL   │   POS1   │    UP    │    END   │  PAGE_UP │			      │     (    │     4    │     5    │     6    │     /    │     -    │
-   &trans     &kp DEL    &kp HOME   &kp UARW   &kp END    &kp PG_UP		               &kp RPAR   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_DIVIDE &kp KP_SUBTRACT
+//│    TAB   │    DEL   │   POS1   │    UP    │    END   │          │			      │     (    │     4    │     5    │     6    │     /    │     -    │
+   &trans     &kp DEL    &kp HOME   &kp UARW   &kp END    &trans		               &kp RPAR   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_DIVIDE &kp KP_SUBTRACT
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LCTRL  │   CAPS   │   LEFT   │   DOWN   │   RIGHT  │  PG_DOWN │			      │     [    │     1    │     2    │     3    │     %    │     =    │
-   &trans     &kp CAPS   &kp LARW   &kp DARW   &kp RARW   &kp PG_DN			       &kp LBKT   &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp PRCNT  &kp EQUAL
+//│   LSHFT  │          │   LEFT   │   DOWN   │   RIGHT  │  PAGE_UP │			      │     [    │     1    │     2    │     3    │     %    │     =    │
+   &trans     &trans     &kp LARW   &kp DARW   &kp RARW   &kp PG_UP			       &kp LBKT   &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp PRCNT  &kp EQUAL
 //├──────────┼──────────┼─ ────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LSHFT  │   LCAPS  │LSCRLLLOCK│    APP   │ LCKNMLCK │  CNTXMN  │     <    │   │    >     │     ]    │     0    │     ,    │     .    │   BCSP   │   ENTR   │
-   &trans     &kp LCAPS  &kp LSLCK  &kp K_APP  &kp LNLCK  &kp K_CMENU &kp LT        &kp GT     &kp RBKT   &kp KP_N0  &kp COMMA  &kp KP_DOT &kp BSPC   &kp ENTER
+//│   LCTRL  │   CAPS   │          │          │          │  PG_DOWN │     <    │   │    >     │     ]    │     0    │     ,    │     .    │   BCSP   │   ENTR   │
+   &trans     &kp CAPS   &trans    &trans      &trans     &kp PG_DN  &kp LT        &kp GT     &kp RBKT   &kp KP_N0  &kp COMMA  &kp KP_DOT &kp BSPC   &kp ENTER
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCSP   │    LEF   │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
@@ -108,13 +108,13 @@
 //│    TAB   │     !    │     @    │     #    │     $    │     %    │			      │     ^    │     &    │     *    │     `    │     ~    │     ~    │
    &trans     &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    		               &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE  &kp TILDE  &kp TILDE2
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LCTRL  │     '    │     [    │     (    │     {    │     <    │			      │     /    │     -    │     =    │     :    │     ;    │     #    │
+//│   LSHFT  │     '    │     [    │     (    │     {    │     <    │			      │     /    │     -    │     =    │     :    │     ;    │     #    │
    &trans     &kp SQT    &kp LBKT   &kp LPAR   &kp LBRC   &kp LT      			       &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON  &kp SEMI   &kp NUHS
 //├──────────┼──────────┼─ ────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LSHFT  │     "    │     ]    │     )    │     }    │     >    │     [    │   │     ]    │     \    │     _    │     +    │     │    │     ?    │   RSHFT  │
+//│   LCTRL  │     "    │     ]    │     )    │     }    │     >    │     [    │   │     ]    │     \    │     _    │     +    │     │    │     ?    │   RSHFT  │
    &trans     &kp DQT    &kp RBKT   &kp RPAR   &kp RBRC   &kp GT     &kp LBKT	    &kp RBKT   &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCSP   │    LEF   │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
             >;
@@ -129,13 +129,13 @@
 //│    TAB   │  PROF 2  │  PROF 3  │  PROF 4  │          │          │			      │ DECBRGHT │    F4    │    F5    │    F6    │    F11   │  VOL UP  │
    &trans     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans     		               &kp C_BRI_DEC &kp F4  &kp F5     &kp F6     &kp F11    &kp C_VOL_UP
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LCTRL  │          │          │          │          │          │			      │          │    F1    │    F2    │    F3    │    F10   │ VOL DOWN │
+//│   LSHFT  │          │          │          │          │          │			      │          │    F1    │    F2    │    F3    │    F10   │ VOL DOWN │
    &trans     &trans     &trans     &trans     &trans     &trans     			       &trans     &kp F1     &kp F2     &kp F3     &kp F10    &kp C_VOL_DN
 //├──────────┼──────────┼─ ────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LSHFT  │          │          │          │          │          │     (    │   │     )    │  SHUFFLE │ PREVSONG │  REWIND  │PAUSEMUSIC│FASTFOWARD│ NEXTSONG │
-   &trans     &trans     &trans     &trans     &trans     &trans     &kp LPAR 	    &kp RPAR   &kp C_SHUFFLE &kp C_PREV &kp C_RW &kp C_PP  &kp C_FF   &kp C_NEXT
+//│   LCTRL  │          │LSCRLLLOCK│    APP   │          │          │     (    │   │     )    │  SHUFFLE │ PREVSONG │  REWIND  │PAUSEMUSIC│FASTFOWARD│ NEXTSONG │
+   &trans     &trans     &kp LSLCK  &kp K_APP  &trans     &trans     &kp LPAR 	    &kp RPAR   &kp C_SHUFFLE &kp C_PREV &kp C_RW &kp C_PP  &kp C_FF   &kp C_NEXT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
+//  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCSP   │    LEF   │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
 //				   ╰──────────┴──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────╯
 
