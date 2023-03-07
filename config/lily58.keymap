@@ -108,11 +108,11 @@
 //│    TAB   │     !    │     @    │     #    │     $    │     %    │			      │     ^    │     &    │     *    │     `    │     ~    │     ~    │
    &trans     &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    		               &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE  &kp TILDE  &kp TILDE2
 //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤			      ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LCTRL  │     '    │     [    │     {    │     (    │     <    │			      │     /    │     -    │     =    │     :    │     ;    │     #    │
-   &trans     &kp SQT    &kp LBKT   &kp LBRC   &kp LPAR   &kp LT      			       &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON  &kp SEMI   &kp NUHS
+//│   LCTRL  │     '    │     [    │     (    │     {    │     <    │			      │     /    │     -    │     =    │     :    │     ;    │     #    │
+   &trans     &kp SQT    &kp LBKT   &kp LPAR   &kp LBRC   &kp LT      			       &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON  &kp SEMI   &kp NUHS
 //├──────────┼──────────┼─ ────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-//│   LSHFT  │     "    │     ]    │     }    │     )    │     >    │     [    │   │     ]    │     \    │     _    │     +    │     │    │     ?    │   RSHFT  │
-   &trans     &kp DQT    &kp RBKT   &kp RBRC   &kp RPAR   &kp GT     &kp LBKT	    &kp RBKT   &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK  &kp RSHFT
+//│   LSHFT  │     "    │     ]    │     )    │     }    │     >    │     [    │   │     ]    │     \    │     _    │     +    │     │    │     ?    │   RSHFT  │
+   &trans     &kp DQT    &kp RBKT   &kp RPAR   &kp RBRC   &kp GT     &kp LBKT	    &kp RBKT   &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK  &kp RSHFT
 //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┼──────────╮   ╭──────────┼──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
 //  				   │   LALT   │   LGUI   │   RIG    │   SPACE  │   │   ENTR   │   BCKSP  │    LEF   │    DEL   │
 				    &trans     &trans     &trans     &trans	    &trans     &trans     &trans     &trans
